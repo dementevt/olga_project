@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/fon.jpg'); /* Путь к кирпичному фону */
+    color: #333; /* Цвет текста */
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* Цвет заголовка */
+    padding: 20px 0;
+}
+
+.logo-container {
+    width: 100%; /* Ширина контейнера равна 100% */
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center; /* Выравнивание содержимого по центру */
+}
+
+.logo {
+    height: 130px;
+    width: auto; /* Автоматическая ширина */
+}
+
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #555; /* Цвет заголовка таблицы */
+    color: #fff; /* Цвет текста заголовка таблицы */
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Цвет фона заголовка */
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}

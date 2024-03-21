@@ -1,0 +1,134 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/fon.jpg'); /* Замените путь на свой */
+    color: #fff; /* Цвет текста на фоне */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.marquee-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    width: 100%; /* Ширина контейнера равна 100% */
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center; /* Выравнивание содержимого по центру */
+}
+
+.logo {
+    height: 130px;
+    width: auto; /* Автоматическая ширина */
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    margin: 50px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+h1 {
+    color: #333; /* Цвет заголовка */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+h2 {
+    color: #666; /* Цвет подзаголовков */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+p {
+    color: #555; /* Цвет текста */
+    line-height: 1.6; /* Межстрочный интервал */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+/* Стили для формы */
+form {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Стили для кнопок */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Анимация перехода цвета при наведении */
+    display: block; /* Делаем кнопку блочным элементом */
+    margin: 0 auto; /* Центрируем кнопку по горизонтали */
+}
+
+/* При наведении на кнопку */
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* При нажатии на кнопку */
+input[type="submit"]:active {
+    background-color: #222;
+}
+
+footer {
+    background-color: #333; /* Цвет фона футера */
+    color: #fff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    padding: 20px 0; /* Внутренние отступы */
+    position: fixed; /* Футер будет прижат к нижней части окна браузера */
+    width: 100%; /* Ширина футера равна ширине окна браузера */
+    bottom: 0; /* Располагаем футер внизу страницы */
+}

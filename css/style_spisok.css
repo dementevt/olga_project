@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; 
+}
+
+
+header {
+    text-align: center; /* Выравниваем заголовок по центру */
+    padding: 20px 0; /* Внешние отступы для заголовка */
+}
+
+.logo-container {
+    position: relative; /* Относительное позиционирование для логотипа и заголовка */
+}
+
+.logo-container h1 {
+    margin-top: 20px; /* Внешние отступы между логотипом и заголовком */
+}
+
+.logo-container img {
+    position: absolute; /* Абсолютное позиционирование для логотипа */
+    top: 10px; /* Отступ сверху */
+    left: 10px; /* Отступ слева */
+    height: 90px; /* Высота логотипа */
+}
+
+.main {
+    padding: 20px; /* Внутренние отступы для контейнера */
+}
+
+.list-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон для контраста с текстом */
+    padding: 20px; /* Внутренние отступы для контейнера списка */
+}
+
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+}
+
+li {
+    margin-bottom: 10px; /* Внешние отступы между элементами списка */
+}
+
+li > ul {
+    margin-left: 20px; /* Отступ для вложенных списков */
+}
